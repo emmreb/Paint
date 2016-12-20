@@ -1,0 +1,51 @@
+body{
+    background-color: lightslategray;
+}
+.canvas{
+    background-color: whitesmoke;
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    margin-left: 35px;
+}
+.palette{
+    background-color: black;
+    width: 100px;
+    height: 500px;
+    display: inline-block;
+}
+.color1 {
+     background-color: midnightblue;
+     width: 80px;
+     height: 80px;
+     margin-top: 25px;
+     margin-left: 10px;
+ }
+.color2{
+    background-color: darkgreen;
+    width:80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.color3 {
+    background-color: purple;
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px
+}
+.color4{
+     background-color: lightblue;
+     width:80px;
+     height: 80px;
+     margin-top: 10px;
+     margin-left: 10px;
+}
+.color5{
+    background-color: gold;
+    width:80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
