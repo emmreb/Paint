@@ -1,4 +1,4 @@
-var brushColor = "";
+var brushColor = 'midnightblue';
 var brush = "";
 
 var palette=document.createElement('div');
