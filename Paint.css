@@ -1,51 +1,74 @@
 body{
     background-color: lightslategray;
 }
-.canvas{
-    background-color: whitesmoke;
-    width: 500px;
-    height: 500px;
+
+#b{
     display: inline-block;
-    margin-left: 35px;
-}
-.palette{
     background-color: black;
     width: 100px;
-    height: 500px;
-    display: inline-block;
+    height: 560px;
+    margin-top: 10px ;
 }
-.color1 {
-     background-color: midnightblue;
-     width: 80px;
-     height: 80px;
-     margin-top: 25px;
-     margin-left: 10px;
- }
-.color2{
+#a{
+    margin-top:10px ;
+    display: inline-block;
+    margin-left: 45px;
+}
+#color1 {
+    background-color: midnightblue;
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+#color2{
     background-color: darkgreen;
     width:80px;
     height: 80px;
     margin-top: 10px;
     margin-left: 10px;
 }
-.color3 {
+#color3 {
     background-color: purple;
     width: 80px;
     height: 80px;
     margin-top: 10px;
     margin-left: 10px
 }
-.color4{
-     background-color: lightblue;
-     width:80px;
-     height: 80px;
-     margin-top: 10px;
-     margin-left: 10px;
+#color4{
+    background-color: lightblue;
+    width:80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
-.color5{
+#color5{
     background-color: gold;
     width:80px;
     height: 80px;
     margin-top: 10px;
     margin-left: 10px;
+}
+#color6{
+    background-color: whitesmoke;
+    width:80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.pixel{
+    width: 10px;
+    height: 10px;
+}
+.box {
+    height: 5px;
+    width: 5px;
+    background-color: whitesmoke;
+}
+
+#horizontal{
+    display: inline-block;
+}
+#vertical{
+    display: block;
 }
